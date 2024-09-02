@@ -1,4 +1,4 @@
-Whay this PHP programm do:
+What this PHP programm do:
 
 1. Parsing horoscope texts from website https://astrostar.ru
 2. Convert text to mp3 spech with help of https://github.com/jsakars/ivona-speechcloud-sdk-php
