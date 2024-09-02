@@ -1,4 +1,6 @@
-What this PHP programm do:
+# Horoscope Youtube channer generator and uploader
+
+This PHP programm do:
 
 1. Parsing horoscope texts from website https://astrostar.ru
 2. Convert text to mp3 spech with help of https://github.com/jsakars/ivona-speechcloud-sdk-php
