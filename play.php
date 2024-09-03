@@ -348,7 +348,7 @@ if(isset($_GET['i'])){
 	$client->setRedirectUri($redirect);
 	$client->setAccessType("offline");
 	$client->setApplicationName('Youtube Horoscope');
-	$client->setDeveloperKey('AIzaSyCbUvSZttk4-6QWKgz0brYH9RVxu9qAl68');
+	$client->setDeveloperKey('...Google_API_Key_HERE...');
     $client->refreshToken($refresh_tokens[$i]);
     $newtoken = $client->getAccessToken();
     $client->setAccessToken($newtoken);
