@@ -337,8 +337,8 @@ if(isset($_GET['i'])){
 	session_start();
 
 
-	$OAUTH2_CLIENT_ID = '176907913278-9420p9cebcq47tf8cdn7d11nem1ka8ga.apps.googleusercontent.com';
-	$OAUTH2_CLIENT_SECRET = 'QjuToxmHdIiTiWE8GJiFXyr4';
+	$OAUTH2_CLIENT_ID = '...OAUTH2_CLIENT_ID.apps.googleusercontent.com';
+	$OAUTH2_CLIENT_SECRET = '...OAUTH2_CLIENT_SECRET_HERE...';
 	$client = new Google_Client();
 	$client->setClientId($OAUTH2_CLIENT_ID);
 	$client->setClientSecret($OAUTH2_CLIENT_SECRET);
